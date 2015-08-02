@@ -1,0 +1,68 @@
+body{
+	background-color: white;
+	color: #222222;
+	font-size: 1em;
+	font-family: "Helvetica Neue";
+}
+.masthead-intro, .masthead-heading, .content-footer {
+	text-align: center;
+}
+
+.masthead{
+	padding: 6em 0;
+	background-image: url("pictures/LXCMDRFA51.jpg");
+	background-repeat: no-repeat;
+	background-size: 10%;
+	border-top: solid 10px white;
+}
+
+.masthead-intro {
+	margin-bottom: 0.1em;
+	font-family: "Gentium Book Basic";
+	font-szie: 2em;
+}
+
+.masthead-heading {
+	margin-top: -0.2em;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	font-size: 6em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+}
+
+.content-footer,
+.introduction-section, 
+.location-section, 
+.questions-section {
+	max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
+
+.social > li {
+	display: inline-block;
+}
+
+.introduction > p,
+.location > p,
+.content-foote > p{
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+.content-footer > p {
+	color: white;
+}
+.question-section > h2 {
+	font-family:"HEntium Book Basic",Georgia, serif;
+	font-size:1.12em;
+	font-weight: bold;
+}
+.content-footer {
+	background-color: #FF0000;
+}
+h1 {
+	color: #FF0000;
+}
+/* https://github.com/weizgao/webpages.git */
